@@ -5,5 +5,5 @@
   <supportedVersions>
     <li>1.4</li>
   </supportedVersions>
-  <description>A mod that uses ChatGPT to generate backstories, biographies, and conversations between pawns.</description>
+  <description>A mod that uses various AI APIs to generate backstories, biographies and conversations between pawns. It integrates with RimWorld using Harmony patches.</description>
 </ModMetaData>
