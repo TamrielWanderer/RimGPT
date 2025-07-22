@@ -1,7 +1,8 @@
 # RimGPT
 
-RimGPT is a proof-of-concept RimWorld mod that uses the OpenAI API to generate
-backstories, biographies and pawn conversations with ChatGPT.
+RimGPT is a proof-of-concept RimWorld mod that uses various AI APIs to
+generate backstories, biographies and pawn conversations. The mod now patches
+the game using Harmony so the biographies are generated as pawns spawn.
 
 ## Structure
 
@@ -14,9 +15,13 @@ backstories, biographies and pawn conversations with ChatGPT.
 2. Run `dotnet build` inside the `Source/RimGPT` directory.
 3. Copy `bin/Debug/net48/RimGPT.dll` to `RimGPTMod/Assemblies`.
 
-Set your OpenAI API key in the environment variable `OPENAI_API_KEY` before
-launching RimWorld.
+Set your API keys before launching RimWorld:
 
-This is only a minimal example for educational purposes. It demonstrates how to
-call ChatGPT from RimWorld but does not integrate fully with the game's UI or
-pawn dialogue system.
+- `OPENAI_API_KEY` for the OpenAI API.
+- `GEMINI_API_KEY` for the Gemini API.
+- `OPENROUTER_API_KEY` for the OpenRouter API.
+
+You can choose which provider to use in the mod settings.
+
+This is still a minimal example for educational purposes, but it now integrates
+with RimWorld through Harmony patches and supports multiple AI providers.
