@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimGPT</name>
+  <author>OpenAI Codex</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <description>A mod that uses ChatGPT to generate backstories, biographies, and conversations between pawns.</description>
+</ModMetaData>
